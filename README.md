@@ -4,7 +4,7 @@ This repo is a demo website for the Green Web Foundation's [Grid-aware Websites]
 
 ## Demo sites
 
-You can see this code working on the public internet at: [https://grid-aware-demo.netlify.app/power-breakdown/](https://grid-aware-demo.netlify.app/power-breakdown/)
+You can see this code working on the public internet at: [https://grid-aware-demo.netlify.app/](https://grid-aware-demo.netlify.app/)
 
 ## How it works
 
