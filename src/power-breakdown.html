@@ -36,7 +36,7 @@ mode: power
 
     <h2>How does it work?</h2>
     <p>This page uses the <a href="https://github.com/thegreenwebfoundation/grid-aware-websites">grid-aware-websites code library</a> to get the current energy grid data from Electricity Maps. Based on the response, it will either return the regular site, or modify parts of the site to apply some low-impact web design practices (explained above).</p>
-    <p>All of this work takes part in a Cloudflare Workers, meaning there is no JavaScript execution on the client device for any of this to happen.</p>
+    <p>All of this work takes part in a Netlify Edge Functions, meaning there is no JavaScript execution on the client device for any of this to happen.</p>
 
     <h3>High-level diagram</h3>
     <figure>
@@ -50,8 +50,8 @@ mode: power
         <figcaption>A more detailed diagram showing the process that takes place inside the edge worker to determine if grid-aware design should be applied.</figcaption>
     </figure>
 
-    <h3>Code snippet running on Cloudflare Workers</h3>
-    <p>This is a simplified snippet from the Cloudflare Workers that works on this page.</p>
+    <h3>Code snippet running on Netlify Edge Functions</h3>
+    <p>This is a simplified snippet from the Netlify Edge Functions that works on this page.</p>
 
     {% include 'partials/snippet.html' %}
 
