@@ -1,0 +1,2 @@
+[functions]
+deno_import_map = "./grid-aware-workers/netlify/import-map.json"
