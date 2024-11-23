@@ -1,6 +1,6 @@
 # Grid-aware websites demo
 
-This repo is a demo website for the Green Web Foundation's [Grid-aware Websites](https://github.com/thegreenwebfoundation/grid-aware-websites) project. It demonstrates grid-aware code being run in against routes using Netlify Edge Functions.
+This repo is a demo website for the Green Web Foundation's [Grid-aware Websites](https://github.com/thegreenwebfoundation/grid-aware-websites) project. It demonstrates grid-aware code being run on routes using Netlify Edge Functions.
 
 ## Demo sites
 
