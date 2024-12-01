@@ -11,13 +11,13 @@
         <code id="snippet">
 // Import the things we need from the grid-aware-websites library
 import { gridAwarePower } from "https://esm.sh/@greenweb/grid-aware-websites@latest";
-import { netlify } from "https://esm.sh/@greenweb/grid-aware-websites@latest/plugins/edge";
+import { getLocation } from "https://esm.sh/@greenweb/gaw-plugin-netlify-edge@latest";
 
 export default async (request, context) => {
 
         // If the content type is HTML, we can then do the grid-aware checks, based on the user location.
         // Here we use the country, but you could also use lat-lon.
-        let location = netlify.getLocation(request);
+        let location = getLocation(request);
         let { country } = location;
 
         // If we can't get that information, return the response as it is.

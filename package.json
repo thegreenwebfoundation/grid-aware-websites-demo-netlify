@@ -17,6 +17,7 @@
   "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@greenweb/gaw-plugin-netlify-edge": "^0.1.0",
     "@greenweb/grid-aware-websites": "^0.1.0"
   },
   "devDependencies": {

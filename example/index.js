@@ -1,10 +1,10 @@
 import { gridAwarePower } from "https://esm.sh/@greenweb/grid-aware-websites@latest";
-import { netlify } from "https://esm.sh/@greenweb/grid-aware-websites@latest/plugins/edge";
+import { getLocation } from "https://esm.sh/@greenweb/@gaw-plugin-netlify-edge@latest";
 
 export default async (request, context) => {
 	
 	// Get the location of the user from the Netlify request object
-  	let location = netlify.getLocation(context);
+  	let location = getLocation(context);
 	let { country } = location;
 
 	// If the country is not found, then we return the response with an error message in the header
