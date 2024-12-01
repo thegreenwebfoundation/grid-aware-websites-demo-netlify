@@ -1,5 +1,5 @@
 import { gridAwarePower } from "https://esm.sh/@greenweb/grid-aware-websites@latest";
-import { getLocation } from "https://esm.sh/@greenweb/@gaw-plugin-netlify-edge@latest";
+import { getLocation } from "https://esm.sh/@greenweb/gaw-plugin-netlify-edge@latest";
 import { gridAwareRewriter, regularRewriter } from "./utils/index.js";
 
 export default async (request, context) => {
