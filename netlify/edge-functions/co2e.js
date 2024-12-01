@@ -1,9 +1,9 @@
 import { gridAwareCO2e } from "https://esm.sh/@greenweb/grid-aware-websites@latest";
-import { netlify } from "https://esm.sh/@greenweb/grid-aware-websites@latest/plugins/edge";
+import { getLocation } from "https://esm.sh/@greenweb/@gaw-plugin-netlify-edge@latest";
 import { gridAwareRewriter, regularRewriter } from "./utils/index.js";
 
 export default async (request, context) => {
-  let location = netlify.getLocation(context);
+  let location = getLocation(context);
 	let { country } = location;
 
     if (!country) {
